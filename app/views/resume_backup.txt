@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<!--
+		Supersized - Fullscreen Slideshow jQuery Plugin
+		Version : 3.2.6
+		Site	: www.buildinternet.com/project/supersized
+		
+		Author	: Sam Dunn
+		Company : One Mighty Roar (www.onemightyroar.com)
+		License : MIT License / GPL License
+	-->
+
+	<head>
+
+		<title>Supersized - Full Screen Background Slideshow jQuery Plugin</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<link rel="stylesheet" href="stylesheets/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="stylesheets/supersized.shutter.css" type="text/css" media="screen" />
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="javascripts/jquery.easing.min.js"></script>
+		
+		<script type="text/javascript" src="javascripts/supersized.3.2.6.min.js"></script>
+		<script type="text/javascript" src="javascripts/supersized.shutter.min.js"></script>
+		
+</br></br></br>			
+		<script type="text/javascript">
+
+			jQuery(function($){
+				
+				$.supersized({
+				
+					// Functionality
+					slide_interval          :   4000,		// Length between transitions
+					transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	800,		// Speed of transition
+															   
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					slides 					:  	[			// Slideshow Images
+														{image : 'images/4.jpg'},
+														{image : 'images/1.jpg'},
+														{image : 'images/2.jpg'},
+														{image : 'images/3.jpg'}
+												]
+					
+				});
+		    });
+		    
+		</script>
+		
+	</head>
+	
+	<style type="text/css">
+		ul#demo-block{ margin:0 15px 15px 15px; }
+			ul#demo-block { margin:0 0 10px 0; padding:10px; display:inline; float:left; clear:both; color:#aaa; background:url('images/bg-black.png'); font:13px Quicksand;width:1100px; }
+			ul#demo-block  a{ color:#eee; font-weight:bold; }
+	h1,h2,h3,p,li{color:#fff;}
+	</style>
+
+<body>
+
+	<!--Demo styles (you can delete this block)-->
+	
+	<ul id="demo-block">
+<!--	<li><a href="#"><img src="images/logo.gif"/></a></li>
+<!--		<li>Photographers: <a href="http://cargocollective.com/mariakazvan" target="_blank">Maria Kazvan</a>, <a href="http://colindub.com" target="_blank">Colin Wojno</a>, &amp; <a href="http://brookeshaden.com/" target="_blank">Brooke Shaden</a></li>-->
+	<!--<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resume</h1>-->
+</br></br>
+	<strong><h1>Mohammad Wasiuddin Ahmed</h1></strong>
+	</br>
+	<h3>647-982-0641 | wasiuddin.ahmed@utoronto.ca | #419-75 Thorncliffe Park Drive, Toronto, ON M4H 1L4 </h2>
+	</br>
+	</br>
+	<hr></hr>
+	</br>
+	<strong><h2>Education</h2></strong>
+	<h3> BASc - Computer Engineering (2009-Present)</br>Minor: Robotics and Mechatronics</h3>
+	</br>
+	<strong><h2>Certifications &amp; Training</h2></strong>
+	<h3>• Microsoft Certified IT Professional (MCITP), Enterprise Administrator</h3></br>
+	<h3>Zoom Technologies, Junior Network Administrator </h3>
+	</br>
+	<h3>•  Configured DHCP, DNS and Active Directory servers.</br>
+	• Created Users and groups and managed their policies. Took backup of data everyday</br>
+	• Managed FTP and Samba server. Transferred files from Windows to Linux and vice-versa</br>
+	• Managed NTFS and shared folder security</br>
+	• Presented a report every two days to the manager regarding server errors and other network,
+	  hardware or software problems.</h3>
+
+	</br>
+	<strong><h2>Developer Proficiencies</h2></strong>
+	<h3>	
+	Programming Languages: C, C++, Java, Ruby, MATLAB, NIOS II Assembly</br>
+	Web Development: Ruby On Rails, CSS, HTML</br>
+	Hardware Description Language: Verilog</h3>
+
+	<strong><h2>Projects</h2></strong>
+	<h3>
+	• NoobSkoop</br>
+	• Storage Server</br>
+	• Lego Crane</br>
+	• Chip Collector game</br>
+	• Arduino 3D Tic Tac Toe</br>
+	• Arduino RC Car</br>
+	</h3>
+	</ul>
+	<!--End of styles-->
+
+</body>
+</html>
