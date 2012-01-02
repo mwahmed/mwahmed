@@ -44327,3 +44327,43 @@ Started GET "/resume" for 127.0.0.1 at 2012-01-02 14:35:11 -0500
   Processing by PagesController#resume as HTML
 Rendered pages/resume.html.erb within layouts/application (15.2ms)
 Completed 200 OK in 47ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 14:42:17 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 14:42:48 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-01-02 14:42:50 -0500
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb__766239897_78499350_723200716 at /home/cjr/profile/app/views/supports/_form.html.erb:1)
+Rendered supports/_form.html.erb (26.6ms)
+Rendered supports/new.html.erb within layouts/application (49.9ms)
+Completed 200 OK in 113ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-01-02 14:42:52 -0500
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb__766239897_84848220_723200716 at /home/cjr/profile/app/views/supports/_form.html.erb:1)
+Rendered supports/_form.html.erb (24.5ms)
+Rendered supports/new.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 100ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 14:43:10 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 14:44:06 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.0ms)
