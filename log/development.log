@@ -44491,3 +44491,2151 @@ Started GET "/" for 127.0.0.1 at 2012-01-02 15:08:09 -0500
   Processing by PagesController#home as HTML
 Rendered pages/home.html.erb within layouts/application (15.3ms)
 Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 21:46:22 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (34.7ms)
+Completed 200 OK in 152ms (Views: 151.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 21:46:30 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 32ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 21:46:31 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 114ms (Views: 113.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 21:46:33 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-01-02 21:46:35 -0500
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___23435280_78923110_1067500460 at /home/cjr/profile/app/views/supports/_form.html.erb:1)
+Rendered supports/_form.html.erb (136.0ms)
+Rendered supports/new.html.erb within layouts/application (155.6ms)
+Completed 200 OK in 218ms (Views: 180.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 21:46:38 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:46:40 -0500
+  Processing by PagesController#ece297 as HTML
+Rendered pages/ece297.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 21:46:42 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 21:48:20 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 21:48:23 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 21:48:30 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 21:48:30 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 21:48:34 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:48:36 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:50:19 -0500
+  Processing by CommentsController#ece297 as HTML
+Completed 500 Internal Server Error in 9ms
+
+ActiveRecord::StatementInvalid (Could not find table 'comments'):
+  app/controllers/comments_controller.rb:27:in `new'
+  app/controllers/comments_controller.rb:27:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.8ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateComments (20120103024727)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.6ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "idd" varchar(255), "comment" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120103024727')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("comments")
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:50:36 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (13.5ms)
+Rendered comments/ece297.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 34ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:51:28 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (5.2ms)
+Rendered comments/ece297.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 60ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:51:43 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wasi", "email"=>"wasi.ahmed@gmail.com", "comment"=>"test comment 1"}, "commit"=>"Create Comment"}
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (1.0ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wasi', 'wasi.ahmed@gmail.com', NULL, 'test comment 1', '2012-01-03 02:51:43.141793', '2012-01-03 02:51:43.141793')
+Redirected to http://localhost:3000/comments/1
+Completed 302 Found in 581ms
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2012-01-02 21:51:43 -0500
+  Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."id" = 1 LIMIT 1[0m
+Rendered comments/show.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 57ms (Views: 18.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/comments/images/github.png" for 127.0.0.1 at 2012-01-02 21:51:43 -0500
+
+ActionController::RoutingError (No route matches "/comments/images/github.png"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:52:16 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (5.2ms)
+Rendered comments/ece297.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 31ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:52:29 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"w", "email"=>"s@gmail.com", "comment"=>"test comment2"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('w', 's@gmail.com', NULL, 'test comment2', '2012-01-03 02:52:29.603845', '2012-01-03 02:52:29.603845')
+Redirected to http://localhost:3000/comments/2
+Completed 302 Found in 418ms
+
+
+Started GET "/comments/2" for 127.0.0.1 at 2012-01-02 21:52:30 -0500
+  Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."id" = 2 LIMIT 1[0m
+Rendered comments/show.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 31ms (Views: 18.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/comments/images/github.png" for 127.0.0.1 at 2012-01-02 21:52:30 -0500
+
+ActionController::RoutingError (No route matches "/comments/images/github.png"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:54:06 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (5.3ms)
+Rendered comments/ece297.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 32ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:54:16 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"sdlkfn", "email"=>"sdl;kng", "comment"=>"testcomment 3"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (1.5ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('sdlkfn', 'sdl;kng', NULL, 'testcomment 3', '2012-01-03 02:54:16.805417', '2012-01-03 02:54:16.805417')
+Redirected to http://localhost:3000#
+Completed 302 Found in 345ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 21:54:17 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:54:21 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (5.5ms)
+Rendered comments/ece297.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 32ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:55:36 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"alkfj", "email"=>"sdk;g", "comment"=>"44444444"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('alkfj', 'sdk;g', NULL, '44444444', '2012-01-03 02:55:36.325169', '2012-01-03 02:55:36.325169')[0m
+Redirected to 
+Completed 500 Internal Server Error in 214ms
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  app/controllers/comments_controller.rb:48:in `block (2 levels) in create'
+  app/controllers/comments_controller.rb:46:in `create'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:56:03 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece297.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 32ms (Views: 15.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:56:05 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece297.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 33ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:56:06 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.0ms)
+Rendered comments/ece297.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 32ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:56:34 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece297.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 33ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:56:40 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.0ms)
+Rendered comments/ece297.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 32ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:56:49 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wa", "email"=>"sdg", "idd"=>"ece297", "comment"=>"5555555555"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wa', 'sdg', 'ece297', '5555555555', '2012-01-03 02:56:49.605898', '2012-01-03 02:56:49.605898')
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 215ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:56:49 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wa", "email"=>"sdg", "idd"=>"ece297", "comment"=>"5555555555"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wa', 'sdg', 'ece297', '5555555555', '2012-01-03 02:56:49.859452', '2012-01-03 02:56:49.859452')[0m
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 259ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:56:50 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wa", "email"=>"sdg", "idd"=>"ece297", "comment"=>"5555555555"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wa', 'sdg', 'ece297', '5555555555', '2012-01-03 02:56:50.157217', '2012-01-03 02:56:50.157217')
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 258ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:56:50 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wa", "email"=>"sdg", "idd"=>"ece297", "comment"=>"5555555555"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wa', 'sdg', 'ece297', '5555555555', '2012-01-03 02:56:50.478795', '2012-01-03 02:56:50.478795')[0m
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 218ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:56:50 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wa", "email"=>"sdg", "idd"=>"ece297", "comment"=>"5555555555"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wa', 'sdg', 'ece297', '5555555555', '2012-01-03 02:56:50.709986', '2012-01-03 02:56:50.709986')
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 200ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:56:50 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wa", "email"=>"sdg", "idd"=>"ece297", "comment"=>"5555555555"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wa', 'sdg', 'ece297', '5555555555', '2012-01-03 02:56:50.974244', '2012-01-03 02:56:50.974244')[0m
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 190ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:56:51 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wa", "email"=>"sdg", "idd"=>"ece297", "comment"=>"5555555555"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wa', 'sdg', 'ece297', '5555555555', '2012-01-03 02:56:51.202672', '2012-01-03 02:56:51.202672')
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 225ms
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 21:56:54 -0500
+  Processing by CommentsController#index as HTML
+  [1m[36mComment Load (1.3ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/index.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 44ms (Views: 33.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 21:56:54 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (1.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 44ms (Views: 33.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2012-01-02 21:57:03 -0500
+  Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."id" = 1 LIMIT 1[0m
+Rendered comments/show.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 31ms (Views: 18.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/comments/images/github.png" for 127.0.0.1 at 2012-01-02 21:57:03 -0500
+
+ActionController::RoutingError (No route matches "/comments/images/github.png"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 21:57:05 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (1.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (60.2ms)
+Completed 200 OK in 75ms (Views: 64.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2012-01-02 21:57:06 -0500
+  Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."id" = 1 LIMIT 1[0m
+Rendered comments/show.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 31ms (Views: 18.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/comments/images/github.png" for 127.0.0.1 at 2012-01-02 21:57:06 -0500
+
+ActionController::RoutingError (No route matches "/comments/images/github.png"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 21:57:07 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (1.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 44ms (Views: 33.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2012-01-02 21:57:09 -0500
+  Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."id" = 1 LIMIT 1[0m
+Rendered comments/show.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 31ms (Views: 18.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/comments/images/github.png" for 127.0.0.1 at 2012-01-02 21:57:09 -0500
+
+ActionController::RoutingError (No route matches "/comments/images/github.png"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/comments/1/edit" for 127.0.0.1 at 2012-01-02 21:57:12 -0500
+  Processing by CommentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."id" = 1 LIMIT 1
+Rendered comments/_form.html.erb (46.9ms)
+Rendered comments/edit.html.erb within layouts/application (52.6ms)
+Completed 200 OK in 70ms (Views: 56.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/comments/1/images/github.png" for 127.0.0.1 at 2012-01-02 21:57:13 -0500
+
+ActionController::RoutingError (No route matches "/comments/1/images/github.png"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 21:57:16 -0500
+  Processing by CommentsController#index as HTML
+  [1m[36mComment Load (1.2ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/index.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 42ms (Views: 31.8ms | ActiveRecord: 1.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+  [1m[36mSQL (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (174.5ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "idd" varchar(255), "comment" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (111.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (151.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mSQL (119.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120103024727')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 21:57:33 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 17ms (Views: 8.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:57:39 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.5ms)
+Rendered comments/ece297.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 34ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:57:48 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wasi", "email"=>"wasi.ahmed@gmail.com", "idd"=>"ece297", "comment"=>"1111"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wasi', 'wasi.ahmed@gmail.com', 'ece297', '1111', '2012-01-03 02:57:49.006128', '2012-01-03 02:57:49.006128')[0m
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 247ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:57:49 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wasi", "email"=>"wasi.ahmed@gmail.com", "idd"=>"ece297", "comment"=>"1111"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wasi', 'wasi.ahmed@gmail.com', 'ece297', '1111', '2012-01-03 02:57:49.309689', '2012-01-03 02:57:49.309689')
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 192ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:57:49 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wasi", "email"=>"wasi.ahmed@gmail.com", "idd"=>"ece297", "comment"=>"1111"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wasi', 'wasi.ahmed@gmail.com', 'ece297', '1111', '2012-01-03 02:57:49.513326', '2012-01-03 02:57:49.513326')[0m
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 147ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:57:49 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wasi", "email"=>"wasi.ahmed@gmail.com", "idd"=>"ece297", "comment"=>"1111"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wasi', 'wasi.ahmed@gmail.com', 'ece297', '1111', '2012-01-03 02:57:49.716113', '2012-01-03 02:57:49.716113')
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 152ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:57:49 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wasi", "email"=>"wasi.ahmed@gmail.com", "idd"=>"ece297", "comment"=>"1111"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (1.1ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wasi', 'wasi.ahmed@gmail.com', 'ece297', '1111', '2012-01-03 02:57:49.907546', '2012-01-03 02:57:49.907546')[0m
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 181ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:57:50 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wasi", "email"=>"wasi.ahmed@gmail.com", "idd"=>"ece297", "comment"=>"1111"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wasi', 'wasi.ahmed@gmail.com', 'ece297', '1111', '2012-01-03 02:57:50.124995', '2012-01-03 02:57:50.124995')
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 151ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:57:50 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wasi", "email"=>"wasi.ahmed@gmail.com", "idd"=>"ece297", "comment"=>"1111"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wasi', 'wasi.ahmed@gmail.com', 'ece297', '1111', '2012-01-03 02:57:50.315148', '2012-01-03 02:57:50.315148')[0m
+Redirected to http://localhost:3000ece297
+Completed 302 Found in 180ms
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 21:57:53 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.6ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 37ms (Views: 27.5ms | ActiveRecord: 0.6ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+  [1m[36mSQL (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (160.8ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "idd" varchar(255), "comment" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (114.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (138.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mSQL (154.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120103024727')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 21:58:32 -0500
+  Processing by CommentsController#index as HTML
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 17ms (Views: 8.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:58:37 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.0ms)
+Rendered comments/ece297.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 32ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:58:51 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"Was", "email"=>"af", "idd"=>"ece297", "comment"=>"111"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (1.1ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('Was', 'af', 'ece297', '111', '2012-01-03 02:58:51.851905', '2012-01-03 02:58:51.851905')
+Redirected to http://localhost:3000#{@comment.idd}
+Completed 302 Found in 185ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:58:52 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"Was", "email"=>"af", "idd"=>"ece297", "comment"=>"111"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('Was', 'af', 'ece297', '111', '2012-01-03 02:58:52.073172', '2012-01-03 02:58:52.073172')[0m
+Redirected to http://localhost:3000#{@comment.idd}
+Completed 302 Found in 151ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:58:52 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"Was", "email"=>"af", "idd"=>"ece297", "comment"=>"111"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('Was', 'af', 'ece297', '111', '2012-01-03 02:58:52.260571', '2012-01-03 02:58:52.260571')
+Redirected to http://localhost:3000#{@comment.idd}
+Completed 302 Found in 193ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:58:52 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"Was", "email"=>"af", "idd"=>"ece297", "comment"=>"111"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('Was', 'af', 'ece297', '111', '2012-01-03 02:58:52.490443', '2012-01-03 02:58:52.490443')[0m
+Redirected to http://localhost:3000#{@comment.idd}
+Completed 302 Found in 151ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:58:52 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"Was", "email"=>"af", "idd"=>"ece297", "comment"=>"111"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('Was', 'af', 'ece297', '111', '2012-01-03 02:58:52.706744', '2012-01-03 02:58:52.706744')
+Redirected to http://localhost:3000#{@comment.idd}
+Completed 302 Found in 182ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:58:52 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"Was", "email"=>"af", "idd"=>"ece297", "comment"=>"111"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('Was', 'af', 'ece297', '111', '2012-01-03 02:58:52.900141', '2012-01-03 02:58:52.900141')[0m
+Redirected to http://localhost:3000#{@comment.idd}
+Completed 302 Found in 149ms
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:58:53 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"Was", "email"=>"af", "idd"=>"ece297", "comment"=>"111"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('Was', 'af', 'ece297', '111', '2012-01-03 02:58:53.125639', '2012-01-03 02:58:53.125639')
+Redirected to http://localhost:3000#{@comment.idd}
+Completed 302 Found in 173ms
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 21:58:55 -0500
+  Processing by CommentsController#index as HTML
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/index.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 36ms (Views: 26.7ms | ActiveRecord: 0.6ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+  [1m[36mSQL (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (227.2ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "idd" varchar(255), "comment" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (189.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (162.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mSQL (174.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120103024727')
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 21:59:32 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 17ms (Views: 8.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:59:36 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece297.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 33ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 21:59:42 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"awopjfr", "email"=>"skdng", "idd"=>"ece297", "comment"=>"11111"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('awopjfr', 'skdng', 'ece297', '11111', '2012-01-03 02:59:42.762834', '2012-01-03 02:59:42.762834')[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 202ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 21:59:42 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 21:59:50 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 29ms (Views: 19.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 21:59:57 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.5ms)
+Rendered comments/ece297.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 33ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:00:06 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece297.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 32ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:00:30 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.5ms)
+Rendered comments/ece297.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 34ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 22:00:39 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wasi", "email"=>"ws", "idd"=>"ece297", "comment"=>"2222"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wasi', 'ws', 'ece297', '2222', '2012-01-03 03:00:39.539228', '2012-01-03 03:00:39.539228')[0m
+Redirected to http://localhost:3000/ece297
+Completed 302 Found in 191ms
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:00:39 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece297.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 33ms (Views: 14.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 22:00:48 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"sf", "email"=>"sd", "idd"=>"ece297", "comment"=>"3333\r\n"}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('sf', 'sd', 'ece297', '3333
+', '2012-01-03 03:00:48.613919', '2012-01-03 03:00:48.613919')
+Redirected to http://localhost:3000/ece297
+Completed 302 Found in 186ms
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:00:48 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.6ms)
+Rendered comments/ece297.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 35ms (Views: 15.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 22:00:53 -0500
+  Processing by CommentsController#index as HTML
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/index.html.erb within layouts/application (49.6ms)
+Completed 200 OK in 63ms (Views: 53.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:01:01 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece297.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 32ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:01:56 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (38.1ms)
+Rendered comments/ece297.html.erb within layouts/application (42.9ms)
+Completed 200 OK in 64ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:02:05 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece297.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 33ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:02:16 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (38.6ms)
+Completed 500 Internal Server Error in 91ms
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"comments", :id=>#<Comment id: nil, name: nil, email: nil, idd: "ece297", comment: nil, created_at: nil, updated_at: nil>}):
+    27: </p>
+    28: 
+    29: 
+    30: <%= link_to 'Edit', edit_comment_path(@comment) %> |
+    31: <%= link_to 'Back', comments_path %>
+    32: 
+    33: <br>
+  app/views/comments/ece297.html.erb:30:in `_app_views_comments_ece____html_erb___886690600__611199008__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.9ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:05:44 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    8: 
+    9: <p>
+    10:   <b>Name:</b>
+    11:   <%= @comment1.name %>
+    12: </p>
+    13: 
+    14: <p>
+  app/views/comments/ece297.html.erb:11:in `_app_views_comments_ece____html_erb___886690600_81136920__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:05:51 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    8: 
+    9: <p>
+    10:   <b>Name:</b>
+    11:   <%= @comment1.name %>
+    12: </p>
+    13: 
+    14: <p>
+  app/views/comments/ece297.html.erb:11:in `_app_views_comments_ece____html_erb___886690600_83671570__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:05:51 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    8: 
+    9: <p>
+    10:   <b>Name:</b>
+    11:   <%= @comment1.name %>
+    12: </p>
+    13: 
+    14: <p>
+  app/views/comments/ece297.html.erb:11:in `_app_views_comments_ece____html_erb___886690600_80270320__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:05:52 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    8: 
+    9: <p>
+    10:   <b>Name:</b>
+    11:   <%= @comment1.name %>
+    12: </p>
+    13: 
+    14: <p>
+  app/views/comments/ece297.html.erb:11:in `_app_views_comments_ece____html_erb___886690600_84194180__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 22:05:59 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 32ms (Views: 22.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/comments/1" for 127.0.0.1 at 2012-01-02 22:06:01 -0500
+  Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."id" = 1 LIMIT 1[0m
+Rendered comments/show.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 64ms (Views: 51.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/comments/images/github.png" for 127.0.0.1 at 2012-01-02 22:06:01 -0500
+
+ActionController::RoutingError (No route matches "/comments/images/github.png"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 22:06:11 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 32ms (Views: 22.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:06:47 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    7: 
+    8: <p>
+    9:   <b>Name:</b>
+    10:   <%= @comment1.name %>
+    11: </p>
+    12: 
+    13: <p>
+  app/views/comments/ece297.html.erb:10:in `_app_views_comments_ece____html_erb___886690600_79107770__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.4ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:07:06 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    7: 
+    8: <p>
+    9:   <b>Name:</b>
+    10:   <%= @comment1.name %>
+    11: </p>
+    12: 
+    13: <p>
+  app/views/comments/ece297.html.erb:10:in `_app_views_comments_ece____html_erb___886690600_82811080__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:08:10 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece297.html.erb within layouts/application (10.5ms)
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" LIMIT 1[0m
+Completed 500 Internal Server Error in 33ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/comments_controller.rb:36:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:08:17 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece297.html.erb within layouts/application (10.6ms)
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" LIMIT 1
+Completed 500 Internal Server Error in 34ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/comments_controller.rb:36:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:08:37 -0500
+
+SyntaxError (/home/cjr/profile/app/controllers/comments_controller.rb:86: syntax error, unexpected keyword_end, expecting $end):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:08:46 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.3ms)
+Rendered comments/ece297.html.erb within layouts/application (10.9ms)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" LIMIT 1[0m
+Completed 200 OK in 65ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 22:08:57 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"was", "email"=>"", "idd"=>"ece297", "comment"=>""}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('was', '', 'ece297', '', '2012-01-03 03:08:58.002280', '2012-01-03 03:08:58.002280')
+Redirected to http://localhost:3000/ece297
+Completed 302 Found in 196ms
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:08:58 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.3ms)
+Rendered comments/ece297.html.erb within layouts/application (11.7ms)
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" LIMIT 1[0m
+Completed 200 OK in 66ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 22:09:02 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"wae", "email"=>"af", "idd"=>"ece297", "comment"=>""}, "commit"=>"Create Comment"}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wae', 'af', 'ece297', '', '2012-01-03 03:09:02.320311', '2012-01-03 03:09:02.320311')
+Redirected to http://localhost:3000/ece297
+Completed 302 Found in 268ms
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:09:02 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.3ms)
+Rendered comments/ece297.html.erb within layouts/application (10.8ms)
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" LIMIT 1[0m
+Completed 200 OK in 35ms (Views: 14.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 22:09:09 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 34ms (Views: 25.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/comments/4" for 127.0.0.1 at 2012-01-02 22:09:13 -0500
+  Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."id" = 4 LIMIT 1[0m
+Rendered comments/show.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 32ms (Views: 18.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/comments/images/github.png" for 127.0.0.1 at 2012-01-02 22:09:13 -0500
+
+ActionController::RoutingError (No route matches "/comments/images/github.png"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 22:09:17 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 35ms (Views: 25.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/comments/5" for 127.0.0.1 at 2012-01-02 22:09:18 -0500
+  Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."id" = 5 LIMIT 1[0m
+Rendered comments/show.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 64ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/comments/images/github.png" for 127.0.0.1 at 2012-01-02 22:09:18 -0500
+
+ActionController::RoutingError (No route matches "/comments/images/github.png"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" ORDER BY comments.id DESC LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.9ms)[0m  [1mDELETE FROM "comments" WHERE "comments"."id" = 5[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" ORDER BY comments.id DESC LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "comments" WHERE "comments"."id" = 4[0m
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 22:10:05 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 34ms (Views: 24.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 22:10:06 -0500
+  Processing by CommentsController#index as HTML
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 34ms (Views: 24.2ms | ActiveRecord: 0.5ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" ORDER BY comments.id DESC LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.8ms)[0m  [1mDELETE FROM "comments" WHERE "comments"."id" = 5[0m
+  [1m[35mComment Load (0.6ms)[0m  SELECT "comments".* FROM "comments" ORDER BY comments.id DESC LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mDELETE FROM "comments" WHERE "comments"."id" = 4[0m
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 22:10:31 -0500
+  Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 32ms (Views: 22.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 22:10:43 -0500
+  Processing by CommentsController#index as HTML
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 32ms (Views: 22.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:10:46 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.0ms)
+Rendered comments/ece297.html.erb within layouts/application (10.5ms)
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" LIMIT 1
+Completed 200 OK in 33ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-02 22:10:52 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/acza7bHuKTSyozoaVHihQhPdCT7HZgVSQrKT+bhVvw=", "comment"=>{"name"=>"ewsof", "email"=>"kslfahg", "idd"=>"ece297", "comment"=>"4444"}, "commit"=>"Create Comment"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('ewsof', 'kslfahg', 'ece297', '4444', '2012-01-03 03:10:52.621704', '2012-01-03 03:10:52.621704')[0m
+Redirected to http://localhost:3000/ece297
+Completed 302 Found in 212ms
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:10:52 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.0ms)
+Rendered comments/ece297.html.erb within layouts/application (10.4ms)
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" LIMIT 1
+Completed 200 OK in 33ms (Views: 14.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/comments" for 127.0.0.1 at 2012-01-02 22:11:08 -0500
+  Processing by CommentsController#index as HTML
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 64ms (Views: 24.0ms | ActiveRecord: 0.5ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece297' LIMIT 1[0m
+  [1m[35mComment Load (0.7ms)[0m  SELECT "comments".* FROM "comments"
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:22:53 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `all' for nil:NilClass):
+    3: <br>
+    4: <p>blah blah1</p>
+    5: <br>
+    6: <% l = @comment1.all %>
+    7: <% l.each do |d| %>
+    8: 
+    9: 
+  app/views/comments/ece297.html.erb:6:in `_app_views_comments_ece____html_erb___886690600_80428600__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:23:24 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined method `all' for nil:NilClass):
+    3: <br>
+    4: <p>blah blah1</p>
+    5: <br>
+    6: <% l = $comment1.all %>
+    7: <% l.each do |d| %>
+    8: 
+    9: 
+  app/views/comments/ece297.html.erb:6:in `_app_views_comments_ece____html_erb___886690600_84195230__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:23:25 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `all' for nil:NilClass):
+    3: <br>
+    4: <p>blah blah1</p>
+    5: <br>
+    6: <% l = $comment1.all %>
+    7: <% l.each do |d| %>
+    8: 
+    9: 
+  app/views/comments/ece297.html.erb:6:in `_app_views_comments_ece____html_erb___886690600_80652060__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:23:40 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 58ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    4: <p>blah blah1</p>
+    5: <br>
+    6: <% l = $comment1 %>
+    7: <% l.each do |d| %>
+    8: 
+    9: 
+    10: <%end%>
+  app/views/comments/ece297.html.erb:7:in `_app_views_comments_ece____html_erb___886690600_84495450__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:23:47 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece297.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 33ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:24:41 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 54ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    3: <br>
+    4: <p>blah blah1</p>
+    5: <br>
+    6: <h1>NAME: <%= @comment1.name%></h1>
+    7: <br>
+    8: <h2> Add Comment:</h2>
+    9: 
+  app/views/comments/ece297.html.erb:6:in `_app_views_comments_ece____html_erb___886690600_84494380__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:25:17 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    3: <br>
+    4: <p>blah blah1</p>
+    5: <br>
+    6: <h1>NAME: <%= @comment1.name%></h1>
+    7: <br>
+    8: <h2> Add Comment:</h2>
+    9: 
+  app/views/comments/ece297.html.erb:6:in `_app_views_comments_ece____html_erb___886690600_80836160__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:25:24 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/_form.html.erb (6.3ms)
+Rendered comments/ece297.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 64ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:26:03 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:     <th></th>
+    19:   </tr>
+    20: 
+    21: <% $comments.each do |comment| %>
+    22:   <tr>
+    23:     <td><%= comment.name %></td>
+    24:     <td><%= comment.email %></td>
+  app/views/comments/ece297.html.erb:21:in `_app_views_comments_ece____html_erb___886690600_80810170__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateComments (20120103024727)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("comments")
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:26:24 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 53ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:     <th></th>
+    19:   </tr>
+    20: 
+    21: <% $comments.each do |comment| %>
+    22:   <tr>
+    23:     <td><%= comment.name %></td>
+    24:     <td><%= comment.email %></td>
+  app/views/comments/ece297.html.erb:21:in `_app_views_comments_ece____html_erb___886690600_84600680__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:26:25 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:     <th></th>
+    19:   </tr>
+    20: 
+    21: <% $comments.each do |comment| %>
+    22:   <tr>
+    23:     <td><%= comment.name %></td>
+    24:     <td><%= comment.email %></td>
+  app/views/comments/ece297.html.erb:21:in `_app_views_comments_ece____html_erb___886690600_81204040__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:26:26 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:     <th></th>
+    19:   </tr>
+    20: 
+    21: <% $comments.each do |comment| %>
+    22:   <tr>
+    23:     <td><%= comment.name %></td>
+    24:     <td><%= comment.email %></td>
+  app/views/comments/ece297.html.erb:21:in `_app_views_comments_ece____html_erb___886690600_77880450__25289652'
+  app/controllers/comments_controller.rb:30:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:26:50 -0500
+  Processing by CommentsController#ece297 as HTML
+Rendered comments/ece297.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:     <th></th>
+    19:   </tr>
+    20: 
+    21: <% $comments.each do |comment| %>
+    22:   <tr>
+    23:     <td><%= comment.name %></td>
+    24:     <td><%= comment.email %></td>
+  app/views/comments/ece297.html.erb:21:in `_app_views_comments_ece____html_erb___886690600_81786270__25289652'
+  app/controllers/comments_controller.rb:25:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:27:12 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/ece297.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:     <th></th>
+    19:   </tr>
+    20: 
+    21: <% $comments.each do |comment| %>
+    22:   <tr>
+    23:     <td><%= comment.name %></td>
+    24:     <td><%= comment.email %></td>
+  app/views/comments/ece297.html.erb:21:in `_app_views_comments_ece____html_erb___886690600_78323940__25289652'
+  app/controllers/comments_controller.rb:25:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (36.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (42.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:28:22 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece297.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 40ms (Views: 20.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:29:18 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/_form.html.erb (43.5ms)
+Rendered comments/ece297.html.erb within layouts/application (54.5ms)
+Completed 200 OK in 78ms (Views: 59.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:29:48 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece297.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 39ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:29:53 -0500
+  Processing by CommentsController#ece297 as HTML
+Completed 500 Internal Server Error in 1ms
+
+SystemStackError (stack level too deep):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:29:57 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece297.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 40ms (Views: 21.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:30:01 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/_form.html.erb (5.8ms)
+Rendered comments/ece297.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 39ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:30:23 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/_form.html.erb (5.8ms)
+Rendered comments/ece297.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 39ms (Views: 20.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:30:24 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/_form.html.erb (37.9ms)
+Rendered comments/ece297.html.erb within layouts/application (48.3ms)
+Completed 200 OK in 71ms (Views: 52.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:30:36 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/_form.html.erb (7.1ms)
+Rendered comments/ece297.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 40ms (Views: 21.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:31:07 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/_form.html.erb (6.7ms)
+Rendered comments/ece297.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 81ms (Views: 21.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:31:12 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece297.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 40ms (Views: 20.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:31:29 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/_form.html.erb (6.3ms)
+Rendered comments/ece297.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 40ms (Views: 20.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:31:56 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:31:57 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:31:58 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:32:00 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/_form.html.erb (6.3ms)
+Rendered comments/ece297.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 39ms (Views: 20.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-01-02 22:32:01 -0500
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___23435280_80816790_1067500460 at /home/cjr/profile/app/views/supports/_form.html.erb:1)
+Rendered supports/_form.html.erb (5.5ms)
+Rendered supports/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 23ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:32:03 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:32:23 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:32:25 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:32:26 -0500
+
+SyntaxError (/home/cjr/profile/app/controllers/comments_controller.rb:47: syntax error, unexpected tIDENTIFIER, expecting ')'
+        format.html { render :action => "new" }
+                                            ^
+/home/cjr/profile/app/controllers/comments_controller.rb:63: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+        format.html { render :action => "edit" }
+                                             ^
+/home/cjr/profile/app/controllers/comments_controller.rb:63: unterminated string meets end of file
+/home/cjr/profile/app/controllers/comments_controller.rb:63: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:32:35 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece297' LIMIT 1[0m
+Rendered comments/ece297.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 98ms
+
+ActionView::Template::Error (undefined method `each' for #<Comment:0xb722d7d0>):
+    19:     <th></th>
+    20:   </tr>
+    21: 
+    22: <% @comments.each do |comment| %>
+    23:   <tr>
+    24:     <td><%= comment.name %></td>
+    25:     <td><%= comment.email %></td>
+  app/views/comments/ece297.html.erb:22:in `_app_views_comments_ece____html_erb___886690600__611254408__25289652'
+  app/controllers/comments_controller.rb:26:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:32:46 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece297.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 39ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:32:52 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:32:53 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:32:54 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece297.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 40ms (Views: 21.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:34:40 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/_form.html.erb (39.5ms)
+Rendered comments/ece297.html.erb within layouts/application (51.7ms)
+Completed 200 OK in 74ms (Views: 55.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:34:40 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece297.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 39ms (Views: 20.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:34:42 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:34:44 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:34:46 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:34:47 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:35:01 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:37:29 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:37:30 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:37:32 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:37:34 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-01-02 22:37:35 -0500
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___23435280_77530370_1067500460 at /home/cjr/profile/app/views/supports/_form.html.erb:1)
+Rendered supports/_form.html.erb (5.6ms)
+Rendered supports/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 23ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:37:37 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:37:38 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:37:39 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:37:41 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-01-02 22:37:43 -0500
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___23435280_77884070_1067500460 at /home/cjr/profile/app/views/supports/_form.html.erb:1)
+Rendered supports/_form.html.erb (5.6ms)
+Rendered supports/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 23ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:37:44 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:37:45 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:37:46 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:37:50 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments"
+Rendered comments/_form.html.erb (6.0ms)
+Rendered comments/ece297.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 39ms (Views: 20.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:37:53 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:37:54 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-01-02 22:37:55 -0500
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___23435280_80816700_1067500460 at /home/cjr/profile/app/views/supports/_form.html.erb:1)
+Rendered supports/_form.html.erb (5.5ms)
+Rendered supports/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 24ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:37:56 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:37:57 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-01-02 22:37:58 -0500
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___23435280_84130180_1067500460 at /home/cjr/profile/app/views/supports/_form.html.erb:1)
+Rendered supports/_form.html.erb (5.8ms)
+Rendered supports/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 24ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:37:59 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:38:02 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:38:03 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:38:04 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-01-02 22:38:05 -0500
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___23435280_84492000_1067500460 at /home/cjr/profile/app/views/supports/_form.html.erb:1)
+Rendered supports/_form.html.erb (5.8ms)
+Rendered supports/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 24ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:38:06 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:38:07 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:38:42 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:38:42 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:38:43 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:38:43 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:38:46 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:38:47 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:38:48 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:38:48 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:38:51 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:38:51 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-01-02 22:38:52 -0500
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___23435280__611252308_1067500460 at /home/cjr/profile/app/views/supports/_form.html.erb:1)
+Rendered supports/_form.html.erb (5.8ms)
+Rendered supports/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 59ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:38:52 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:38:53 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:38:53 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:38:55 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:38:55 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:39:23 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:39:23 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:39:26 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:39:27 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:39:30 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:39:30 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-01-02 22:39:30 -0500
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___23435280_80264640_1067500460 at /home/cjr/profile/app/views/supports/_form.html.erb:1)
+Rendered supports/_form.html.erb (5.6ms)
+Rendered supports/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 24ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:39:31 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-02 22:39:31 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:39:31 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:39:32 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:39:32 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-02 22:39:40 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:39:40 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-02 22:39:41 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+Rendered comments/_form.html.erb (6.6ms)
+Rendered comments/ece297.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 40ms (Views: 21.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:39:41 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-02 22:39:44 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-02 22:39:44 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)

@@ -7,11 +7,10 @@ p, ul, ol {
 	margin-top: 0;
 	line-height: 180%;
 }
+
 .container {
-
-  width: 1600px;
+  width: 1200px;
 }
-
 
 p{
 text-align:justify;
