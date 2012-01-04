@@ -22,7 +22,33 @@ class CommentsController < ApplicationController
     @title="ECE297"
     @comment = Comment.new
     @comment.idd='ece297';
-    @comments = Comment.all
+	
+#    @comments = Comment.all
+    @comments = Comment.where(:idd => 'ece297')
+    respond_to do |format|
+      format.html # new.html.erb
+      format.xml  { render :xml => @comment }
+    end
+  end
+
+  def ece241
+    @title="ECE241"
+    @comment = Comment.new
+    @comment.idd='ece241';
+#    @comments = Comment.all
+    @comments = Comment.where(:idd => 'ece241')
+    respond_to do |format|
+      format.html # new.html.erb
+      format.xml  { render :xml => @comment }
+    end
+  end
+
+  def ece243
+    @title="ECE243"
+    @comment = Comment.new
+    @comment.idd='ece243';
+#    @comments = Comment.all
+    @comments = Comment.where(:idd => 'ece243')
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @comment }
@@ -41,7 +67,7 @@ class CommentsController < ApplicationController
 
     respond_to do |format|
       if @comment.save
-        format.html { redirect_to(ece297_path, :notice => 'Comment was successfully created.') }
+        format.html { redirect_to(href="#{root_path}"+ "#{@comment.idd}", :notice => 'Comment was successfully created.') }
         format.xml  { render :xml => @comment, :status => :created, :location => @comment }
       else
         format.html { render :action => "new" }
