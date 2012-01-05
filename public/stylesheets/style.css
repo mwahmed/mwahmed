@@ -227,6 +227,7 @@ border-collapse:collapse;
 table,th, td
 {
 border: 1px solid black;
+font:Quicksand;
 }
 table, td, th
 {
@@ -258,3 +259,37 @@ hr{
 
 
 br { clear: left; }
+
+#error_explanation {
+  width: 400px;
+  border: 2px solid black;
+color: #D8000C;
+background-color: #FFBABA;
+background-image: url('error.png');
+background-repeat: no-repeat;
+background-position: 10px center;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
