@@ -11,6 +11,9 @@ p, ul, ol {
 .container {
   width: 1200px;
 }
+.idd{
+font:1px;
+}
 
 p{
 text-align:justify;
@@ -134,6 +137,7 @@ background-color:#fdeaeb;
 border:1px #e2c7c8 solid;
 width:300px;
 height:120px;
+color:#aaa;
 padding:4px;
 font-size:20px;
 float:left;
@@ -212,5 +216,45 @@ a.question_button:hover {
    border-bottom-style:solid;
    margin:-1px;
 }
+table, th, td
+{
+border: 1px solid black;
+}
+table
+{
+border-collapse:collapse;
+}
+table,th, td
+{
+border: 1px solid black;
+}
+table, td, th
+{
+border:1px solid black;
+}
+th
+{
+background-color:#fff;
+color:solid blue;
+}
+td{
+	background-color:#eee;
+	width:600px;
+}
+td.hover{
+	background-color:#fff;
+}
+textarea:focus, input:focus {
+        border: 2px solid #900;
+	color:#000;
+	background-color:#657383;	
+}
+
+hr{
+	background-color: #580000;
+	padding:0.06em;
+	width: 650px;
+}
 
 
+br { clear: left; }

@@ -10,9 +10,17 @@
 
 
 <% @comments.each do |comment| %>
-    <h2><%= comment.name %> Says:</h2>
-	<h3><%= comment.comment %></h3>
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+<tr>
+    <td> <h2><%= comment.name %> Says:</h2><br><br></td>
+    <td> <h3><%= comment.comment %></h3><br><br> </td>
+</tr>
 
+</table>
 <% end %>
 
 <br>
