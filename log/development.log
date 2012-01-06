@@ -50511,3 +50511,195 @@ ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"
   
 
 Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-06 00:16:24 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 132ms (Views: 131.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 00:16:27 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-06 00:16:29 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 00:16:29 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/resume" for 127.0.0.1 at 2012-01-06 00:16:31 -0500
+  Processing by PagesController#resume as HTML
+Rendered pages/resume.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 00:16:32 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-06 00:16:49 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 00:16:49 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-01-06 00:16:55 -0500
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb__313773156_95459710_1019693800 at /home/cjr/profile/app/views/supports/_form.html.erb:1)
+Rendered supports/_form.html.erb (137.3ms)
+Rendered supports/new.html.erb within layouts/application (158.4ms)
+Completed 200 OK in 205ms (Views: 182.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 00:16:55 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-06 00:17:07 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 00:17:07 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-06 00:17:09 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece297'
+Rendered comments/_form.html.erb (7.6ms)
+Rendered comments/ece297.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 375ms (Views: 61.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 00:17:09 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-06 00:25:08 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece297'[0m
+Rendered comments/_form.html.erb (87.9ms)
+Rendered comments/ece297.html.erb within layouts/application (90.8ms)
+Completed 500 Internal Server Error in 118ms
+
+ActionView::Template::Error (undefined local variable or method `submit' for #<#<Class:0xadf7eec>:0xadf7050>):
+    32:     <%= f.text_area :comment %>
+    33:   </div>
+    34:   <div class="actions">
+    35:     <%= f.submit submit%>
+    36:   </div>
+    37: <% end %>
+  app/views/comments/_form.html.erb:35:in `block in _app_views_comments__form_html_erb___695318117_90831370_1019693800'
+  app/views/comments/_form.html.erb:5:in `_app_views_comments__form_html_erb___695318117_90831370_1019693800'
+  app/views/comments/ece297.html.erb:29:in `_app_views_comments_ece____html_erb___100164189_91206310__124471018'
+  app/controllers/comments_controller.rb:28:in `ece297'
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.6ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-06 00:25:27 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece297'
+Rendered comments/_form.html.erb (5.8ms)
+Rendered comments/ece297.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 40ms (Views: 16.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 00:25:27 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-06 00:25:43 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece297'[0m
+Rendered comments/_form.html.erb (6.0ms)
+Rendered comments/ece297.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 40ms (Views: 15.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 00:25:43 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-06 00:25:52 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 00:25:52 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/cjr/profile/config/initializers/mailer.rb:1)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-06 17:31:26 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 69ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 17:31:28 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)

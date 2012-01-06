@@ -8,29 +8,19 @@
 
 <h1>Comments:</h1>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Email</th>
-    <th>Idd</th>
-    <th>Comment</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
 
 <% @comments.each do |comment| %>
+<table>
   <tr>
-    <td><%= comment.name %></td>
-    <td><%= comment.email %></td>
-    <td><%= comment.idd %></td>
-    <td><%= comment.comment %></td>
-    <td><%= link_to 'Show', comment %></td>
-    <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
-    <td><%= link_to 'Destroy', comment, :confirm => 'Are you sure?', :method => :delete %></td>
+    <th></th>
   </tr>
-<% end %>
+<tr>
+    <td> <h2><strong><%= comment.name %> </strong>Says:</h2><br>
+ <h3><%= comment.comment %></h3><br> </td>
+</tr>
+
 </table>
+<% end %>
 
 <br>
 <h1> Add Comment:</h1>
