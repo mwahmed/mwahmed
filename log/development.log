@@ -50703,3 +50703,1451 @@ ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"
   
 
 Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-06 17:38:08 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece297'
+Rendered comments/_form.html.erb (141.0ms)
+Rendered comments/ece297.html.erb within layouts/application (151.2ms)
+Completed 200 OK in 532ms (Views: 155.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 17:38:09 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-06 17:38:19 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece297'[0m
+Rendered comments/_form.html.erb (6.0ms)
+Rendered comments/ece297.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 73ms (Views: 16.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 17:38:19 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece297" for 127.0.0.1 at 2012-01-06 17:38:43 -0500
+  Processing by CommentsController#ece297 as HTML
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece297'
+Rendered comments/_form.html.erb (5.6ms)
+Rendered comments/ece297.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 40ms (Views: 15.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 17:38:43 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-06 18:07:00 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:07:01 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-01-06 18:07:07 -0500
+  Processing by PagesController#projects as HTML
+Rendered pages/projects.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 29ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:07:07 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:07:09 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (6.4ms)
+Rendered comments/ece243.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 42ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:07:09 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:07:35 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece243.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 75ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:07:35 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:08:24 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece243.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 54ms (Views: 16.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:08:24 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:09:29 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (6.0ms)
+Rendered comments/ece243.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 41ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:09:29 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:12:40 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.9ms)
+Rendered comments/ece243.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 74ms (Views: 15.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:12:41 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:20:21 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (38.2ms)
+Rendered comments/ece243.html.erb within layouts/application (44.3ms)
+Completed 200 OK in 74ms (Views: 48.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:20:21 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.3ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:20:36 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (6.9ms)
+Rendered comments/ece243.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 43ms (Views: 17.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:20:36 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:15 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.8ms)
+Rendered comments/ece243.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 42ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:21:15 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:16 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (6.3ms)
+Rendered comments/ece243.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 76ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:21:16 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:21 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.8ms)
+Rendered comments/ece243.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 41ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:21:21 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:21 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.8ms)
+Rendered comments/ece243.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 42ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:21:22 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:22 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece243.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 79ms (Views: 16.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:22 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece243.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 46ms (Views: 20.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:22 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.8ms)
+Rendered comments/ece243.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 74ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:21:22 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:23 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.9ms)
+Rendered comments/ece243.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 43ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:23 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece243.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 42ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:21:23 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:30 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (39.8ms)
+Rendered comments/ece243.html.erb within layouts/application (45.5ms)
+Completed 200 OK in 75ms (Views: 49.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:21:30 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:34 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.8ms)
+Rendered comments/ece243.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 41ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:21:34 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:42 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.8ms)
+Rendered comments/ece243.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 42ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:21:42 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:21:48 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (39.7ms)
+Rendered comments/ece243.html.erb within layouts/application (45.6ms)
+Completed 200 OK in 75ms (Views: 49.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:21:48 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:22:06 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece243.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 43ms (Views: 16.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:22:06 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:22:44 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.9ms)
+Rendered comments/ece243.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 41ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:22:45 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:22:57 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (6.2ms)
+Rendered comments/ece243.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 75ms (Views: 18.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:22:57 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:23:06 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.9ms)
+Rendered comments/ece243.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 41ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:23:06 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:24:09 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.8ms)
+Rendered comments/ece243.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 42ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:24:09 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:24:16 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (6.0ms)
+Rendered comments/ece243.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 74ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:24:17 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 18:24:27 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece243.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 74ms (Views: 17.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 18:24:28 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-06 20:10:56 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 20:10:56 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 20:11:02 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.9ms)
+Rendered comments/ece243.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 43ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 20:11:02 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 20:18:19 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (6.7ms)
+Rendered comments/ece243.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 92ms (Views: 23.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 20:18:19 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 20:18:31 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.8ms)
+Rendered comments/ece243.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 43ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 20:18:31 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/images/1.mov" for 127.0.0.1 at 2012-01-06 20:18:31 -0500
+
+ActionController::RoutingError (No route matches "/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece243/images/1.mov" for 127.0.0.1 at 2012-01-06 20:18:40 -0500
+
+ActionController::RoutingError (No route matches "/ece243/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243/images/1.mov" for 127.0.0.1 at 2012-01-06 20:18:41 -0500
+
+ActionController::RoutingError (No route matches "/ece243/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243/images/1.mov" for 127.0.0.1 at 2012-01-06 20:18:42 -0500
+
+ActionController::RoutingError (No route matches "/ece243/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243/images/1.mov" for 127.0.0.1 at 2012-01-06 20:18:43 -0500
+
+ActionController::RoutingError (No route matches "/ece243/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243/images/1.mov" for 127.0.0.1 at 2012-01-06 20:18:44 -0500
+
+ActionController::RoutingError (No route matches "/ece243/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/ece243/images/1.mov" for 127.0.0.1 at 2012-01-06 20:18:45 -0500
+
+ActionController::RoutingError (No route matches "/ece243/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/ece243/images/1.mov" for 127.0.0.1 at 2012-01-06 20:18:45 -0500
+
+ActionController::RoutingError (No route matches "/ece243/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece243/images/1.mov" for 127.0.0.1 at 2012-01-06 20:18:46 -0500
+
+ActionController::RoutingError (No route matches "/ece243/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 20:20:25 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.9ms)
+Rendered comments/ece243.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 42ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 20:20:25 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 20:20:34 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (6.5ms)
+Rendered comments/ece243.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 43ms (Views: 16.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 20:20:35 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/images/1.mov" for 127.0.0.1 at 2012-01-06 20:20:35 -0500
+
+ActionController::RoutingError (No route matches "/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243/images/1.mov" for 127.0.0.1 at 2012-01-06 20:20:36 -0500
+
+ActionController::RoutingError (No route matches "/ece243/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243/images/1.mov" for 127.0.0.1 at 2012-01-06 20:20:39 -0500
+
+ActionController::RoutingError (No route matches "/ece243/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243/images/1.mov" for 127.0.0.1 at 2012-01-06 20:20:40 -0500
+
+ActionController::RoutingError (No route matches "/ece243/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243/images/1.mov" for 127.0.0.1 at 2012-01-06 20:20:41 -0500
+
+ActionController::RoutingError (No route matches "/ece243/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 20:26:52 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (9.0ms)
+Rendered comments/ece243.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 87ms (Views: 22.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/1.mov" for 127.0.0.1 at 2012-01-06 20:26:53 -0500
+
+ActionController::RoutingError (No route matches "/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 20:26:53 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/__VIDEO__.MP4" for 127.0.0.1 at 2012-01-06 20:26:53 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.MP4"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/__VIDEO__.OGV" for 127.0.0.1 at 2012-01-06 20:26:53 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.OGV"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 20:27:29 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (6.7ms)
+Rendered comments/ece243.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 83ms (Views: 56.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 20:27:29 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/images/1.mov" for 127.0.0.1 at 2012-01-06 20:27:29 -0500
+
+ActionController::RoutingError (No route matches "/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/__VIDEO__.MP4" for 127.0.0.1 at 2012-01-06 20:27:29 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.MP4"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/__VIDEO__.OGV" for 127.0.0.1 at 2012-01-06 20:27:29 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.OGV"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 20:27:38 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (7.4ms)
+Rendered comments/ece243.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 46ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 20:27:38 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/images/1.mov" for 127.0.0.1 at 2012-01-06 20:27:38 -0500
+
+ActionController::RoutingError (No route matches "/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/__VIDEO__.MP4" for 127.0.0.1 at 2012-01-06 20:27:38 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.MP4"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/__VIDEO__.OGV" for 127.0.0.1 at 2012-01-06 20:27:38 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.OGV"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 20:27:39 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.7ms)
+Rendered comments/ece243.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 42ms (Views: 16.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 20:27:39 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/images/1.mov" for 127.0.0.1 at 2012-01-06 20:27:39 -0500
+
+ActionController::RoutingError (No route matches "/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/__VIDEO__.MP4" for 127.0.0.1 at 2012-01-06 20:27:39 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.MP4"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/__VIDEO__.OGV" for 127.0.0.1 at 2012-01-06 20:27:39 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.OGV"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/__VIDEO__.MP4" for 127.0.0.1 at 2012-01-06 20:27:42 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.MP4"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-06 22:42:20 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 22:42:20 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.3ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 22:44:13 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (8.8ms)
+Rendered comments/ece243.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 93ms (Views: 32.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/1.mov" for 127.0.0.1 at 2012-01-06 22:44:13 -0500
+
+ActionController::RoutingError (No route matches "/images/1.mov"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (49.7ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 22:44:13 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/__VIDEO__.MP4" for 127.0.0.1 at 2012-01-06 22:44:13 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.MP4"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/__VIDEO__.OGV" for 127.0.0.1 at 2012-01-06 22:44:13 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.OGV"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 22:48:21 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece243.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 42ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/__VIDEO__.JPG" for 127.0.0.1 at 2012-01-06 22:48:21 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.JPG"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 22:48:21 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/movie.ogg" for 127.0.0.1 at 2012-01-06 22:48:21 -0500
+
+ActionController::RoutingError (No route matches "/movie.ogg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/__VIDEO__.MP4" for 127.0.0.1 at 2012-01-06 22:48:21 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.MP4"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/movie.mp4" for 127.0.0.1 at 2012-01-06 22:48:21 -0500
+
+ActionController::RoutingError (No route matches "/movie.mp4"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/__VIDEO__.OGV" for 127.0.0.1 at 2012-01-06 22:48:21 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.OGV"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/movie.webm" for 127.0.0.1 at 2012-01-06 22:48:22 -0500
+
+ActionController::RoutingError (No route matches "/movie.webm"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 22:49:11 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.6ms)
+Rendered comments/ece243.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 42ms (Views: 15.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 22:49:12 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/__VIDEO__.JPG" for 127.0.0.1 at 2012-01-06 22:49:12 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.JPG"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/__VIDEO__.MP4" for 127.0.0.1 at 2012-01-06 22:49:12 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.MP4"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/movie.ogg" for 127.0.0.1 at 2012-01-06 22:49:12 -0500
+
+ActionController::RoutingError (No route matches "/movie.ogg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/__VIDEO__.OGV" for 127.0.0.1 at 2012-01-06 22:49:12 -0500
+
+ActionController::RoutingError (No route matches "/__VIDEO__.OGV"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/movie.webm" for 127.0.0.1 at 2012-01-06 22:49:12 -0500
+
+ActionController::RoutingError (No route matches "/movie.webm"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 22:49:53 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.7ms)
+Rendered comments/ece243.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 40ms (Views: 15.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 22:49:54 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.6ms)
+
+
+Started GET "/movie.ogg" for 127.0.0.1 at 2012-01-06 22:49:54 -0500
+
+ActionController::RoutingError (No route matches "/movie.ogg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/movie.webm" for 127.0.0.1 at 2012-01-06 22:49:54 -0500
+
+ActionController::RoutingError (No route matches "/movie.webm"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 22:50:20 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.7ms)
+Rendered comments/ece243.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 41ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 22:50:21 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/movie.ogg" for 127.0.0.1 at 2012-01-06 22:50:21 -0500
+
+ActionController::RoutingError (No route matches "/movie.ogg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/movie.webm" for 127.0.0.1 at 2012-01-06 22:50:21 -0500
+
+ActionController::RoutingError (No route matches "/movie.webm"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 22:50:21 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.9ms)
+Rendered comments/ece243.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 46ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 22:50:21 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/movie.ogg" for 127.0.0.1 at 2012-01-06 22:50:21 -0500
+
+ActionController::RoutingError (No route matches "/movie.ogg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/movie.webm" for 127.0.0.1 at 2012-01-06 22:50:22 -0500
+
+ActionController::RoutingError (No route matches "/movie.webm"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 22:50:26 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.7ms)
+Rendered comments/ece243.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 41ms (Views: 15.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 22:50:26 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/movie.ogg" for 127.0.0.1 at 2012-01-06 22:50:26 -0500
+
+ActionController::RoutingError (No route matches "/movie.ogg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/movie.webm" for 127.0.0.1 at 2012-01-06 22:50:27 -0500
+
+ActionController::RoutingError (No route matches "/movie.webm"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:10:11 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (6.0ms)
+Rendered comments/ece243.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 41ms (Views: 16.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:10:12 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-06 23:16:15 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:16:16 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-06 23:16:18 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:16:18 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:17:09 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.7ms)
+Rendered comments/ece243.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 40ms (Views: 16.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:17:09 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:17:27 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.7ms)
+Rendered comments/ece243.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 41ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:17:27 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:17:34 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece243.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 44ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:17:35 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:17:44 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece243.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 46ms (Views: 17.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:17:45 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:18:06 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.6ms)
+Rendered comments/ece243.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 40ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:18:06 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:18:14 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (6.0ms)
+Rendered comments/ece243.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 40ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:18:14 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:18:42 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.8ms)
+Rendered comments/ece243.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 93ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:18:43 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started POST "/comments" for 127.0.0.1 at 2012-01-06 23:19:14 -0500
+  Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hb8b4fpnGdKN0Tqe4btStWlAxFqHXPtL4OXU8w2lXgA=", "comment"=>{"name"=>"wasi ahmed", "email"=>"wasi.cjr@gmail.com", "idd"=>"ece243", "comment"=>"Looks good"}, "commit"=>"Submit"}
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "comments" ("name", "email", "idd", "comment", "created_at", "updated_at") VALUES ('wasi ahmed', 'wasi.cjr@gmail.com', 'ece243', 'Looks good', '2012-01-07 04:19:14.065587', '2012-01-07 04:19:14.065587')
+Redirected to http://localhost:3000/ece243
+Completed 302 Found in 274ms
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:19:14 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.7ms)
+Rendered comments/ece243.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 42ms (Views: 15.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:19:14 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:20:23 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.7ms)
+Rendered comments/ece243.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 40ms (Views: 15.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:20:23 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:20:37 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece243.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 93ms (Views: 16.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:20:37 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:21:24 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.9ms)
+Rendered comments/ece243.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 40ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:21:24 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:23:00 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (5.7ms)
+Rendered comments/ece243.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 42ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:23:00 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/images/slider_photo.jpg" for 127.0.0.1 at 2012-01-06 23:23:00 -0500
+
+ActionController::RoutingError (No route matches "/images/slider_photo.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:23:37 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'
+Rendered comments/_form.html.erb (5.9ms)
+Rendered comments/ece243.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 40ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:23:37 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/ece243" for 127.0.0.1 at 2012-01-06 23:23:48 -0500
+  Processing by CommentsController#ece243 as HTML
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."idd" = 'ece243'[0m
+Rendered comments/_form.html.erb (6.1ms)
+Rendered comments/ece243.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 96ms (Views: 16.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stylesheets/images/img02.jpg" for 127.0.0.1 at 2012-01-06 23:23:48 -0500
+
+ActionController::RoutingError (No route matches "/stylesheets/images/img02.jpg"):
+  
+
+Rendered /home/cjr/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
