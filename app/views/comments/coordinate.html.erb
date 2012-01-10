@@ -1,0 +1,29 @@
+<link rel="stylesheet" type="text/css" href="stylesheets/body.css" media="all" />
+<br><h1>3D Controller</h1>
+
+<br>
+<p></p>
+<br>
+
+
+<h1>Comments:</h1>
+
+
+<% @comments.each do |comment| %>
+<table>
+  <tr>
+    <th></th>
+  </tr>
+<tr>
+    <td> <h2><strong><%= comment.name %> </strong>Says:</h2><br>
+ <h3><%= comment.comment %></h3><br> </td>
+</tr>
+
+</table>
+<% end %>
+
+<br>
+<h1> Add Comment:</h1>
+
+
+<%= render 'form' %>

@@ -16,6 +16,50 @@ class CommentsController < ApplicationController
     end
   end
 
+  def turret
+    @title="Turret"
+    @comment = Comment.new
+    @comment.idd='turret';
+	
+#    @comments = Comment.all
+    @comments = Comment.where(:idd => 'turret')
+    respond_to do |format|
+      format.html # new.html.erb
+      format.xml  { render :xml => @comment }
+    end
+  end
+  def rc
+    @title="RC Car"
+    @comment = Comment.new
+    @comment.idd='rc';
+	
+#    @comments = Comment.all
+    @comments = Comment.where(:idd => 'rc')
+    respond_to do |format|
+      format.html # new.html.erb
+      format.xml  { render :xml => @comment }
+    end
+  end
+  def coordinate
+    @title="3D-Controller"
+    @comment = Comment.new
+    @comment.idd='3d';
+	
+#    @comments = Comment.all
+    @comments = Comment.where(:idd => '3d')
+    respond_to do |format|
+      format.html # new.html.erb
+      format.xml  { render :xml => @comment }
+    end
+  end
+
+
+
+
+
+
+
+
   # GET /comments/new
   # GET /comments/new.xml
   def ece297
