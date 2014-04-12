@@ -2,6 +2,5 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require File.expand_path('../config/application', __FILE__)
-require 'rake'
 
-Scooter::Application.load_tasks
+Mwahmed::Application.load_tasks

@@ -1,23 +1,56 @@
-Scooter::Application.routes.draw do
+Mwahmed::Application.routes.draw do
+  # The priority is based upon order of creation: first created -> highest priority.
+  # See how all your routes lay out with "rake routes".
 
+  # You can have the root of your site routed with "root"
+  # root 'welcome#index'
 
+  # Example of regular route:
+  #   get 'products/:id' => 'catalog#view'
 
-  resources :comments
+  # Example of named route that can be invoked with purchase_url(id: product.id)
+  #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
-  resources :supports, :only => [:new, :create]
+  # Example resource route (maps HTTP verbs to controller actions automatically):
+  #   resources :products
 
-  match '/contact', :to => 'supports#new'
+  # Example resource route with options:
+  #   resources :products do
+  #     member do
+  #       get 'short'
+  #       post 'toggle'
+  #     end
+  #
+  #     collection do
+  #       get 'sold'
+  #     end
+  #   end
 
-match '/resume', :to => 'pages#resume'
-match '/projects', :to => 'pages#projects'
+  # Example resource route with sub-resources:
+  #   resources :products do
+  #     resources :comments, :sales
+  #     resource :seller
+  #   end
 
-match '/ece297', :to => 'comments#ece297'
-match '/ece243', :to => 'comments#ece243'
-match '/ece241', :to => 'comments#ece241'
-match '/rccar', :to => 'comments#rc'
-match '/turret', :to => 'comments#turret'
-match '/coordinate', :to => 'comments#coordinate'
+  # Example resource route with more complex sub-resources:
+  #   resources :products do
+  #     resources :comments
+  #     resources :sales do
+  #       get 'recent', on: :collection
+  #     end
+  #   end
 
+  # Example resource route with concerns:
+  #   concern :toggleable do
+  #     post 'toggle'
+  #   end
+  #   resources :posts, concerns: :toggleable
+  #   resources :photos, concerns: :toggleable
 
-	  root :to => 'pages#home'
+  # Example resource route within a namespace:
+  #   namespace :admin do
+  #     # Directs /admin/products/* to Admin::ProductsController
+  #     # (app/controllers/admin/products_controller.rb)
+  #     resources :products
+  #   end
 end

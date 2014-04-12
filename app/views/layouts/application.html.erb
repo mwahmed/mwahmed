@@ -1,57 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><%=@title%> | MWAhmed</title>
-  <%= stylesheet_link_tag "style.css" %>
-  <%= stylesheet_link_tag "resume.css" %>
-  <%= javascript_include_tag "jquery.core.js" %>
-  <%= javascript_include_tag "jquery.superfish.js" %>
-  <%= javascript_include_tag "jquery.jcarousel.pack.js" %>
-  <%= javascript_include_tag "jquery.easing.js" %>
-  <%= javascript_include_tag "jquery.scripts.js" %>
+  <title>Mwahmed</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
 </head>
-
 <body>
-<div class="container">
-<div class="wrapper">
-        <div id="header">
-        <div id="logo"><a href="/"><img src="images/wasi.gif" alt="" title="" border="0" /></a></div>
-		<div>
-			
-			<ul id="nav">
-			    <li>  <%= link_to "Home", root_path %></li>
-			    <li>  <%= link_to "Resume", resume_path %></li>
-			    <li>  <%= link_to "Projects", projects_path %></li>
-			    <li>  <%= link_to "Contact", contact_path %></li>
-			<br><br>
-			<a href="http://ca.linkedin.com/pub/mohammad-ahmed/3b/617/37a" target="_blank">
-				  <img src="http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.png" width="200" height="45" border="0" alt="View Mohammad  Ahmed's profile on LinkedIn">
-			    </a>
-			<a href="https://github.com/mwahmed" target="_blank">
-				  <img src="images/github.png" width="200" height="50" border="0" alt="View Mohammad Ahmed's Github repositories"></a>
-			</ul>
-		</div>
 
-        
-        </div>
-<section class="round">
-		<br><br><br>
-        <%= yield %>
-		<div class="push"></div>
-</div>
-<br><br>
+<%= yield %>
 
-      </section>
-<!--	<div id="ft">
-			<a href='/'  >Home</a></li>
-			<a href='/resume'  >Resume</a></li>
-			<a href='/projects'  >Projects</a></li>
-			<a href='/contact'  >Contact</a></li>
-			<a href='#'  >About</a></li>
-      </div>
--->
-      
-</div>
 </body>
 </html>
